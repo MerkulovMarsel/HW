@@ -48,3 +48,5 @@ desktop.ini
 *.gcda
 *.gcno
 *.gcov
+*.git
+*.idea
