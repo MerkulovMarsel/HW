@@ -1,0 +1,62 @@
+# Игнорируем всё, что получается после компиляции
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.class
+*.pyc
+*.pyo
+
+# Игнорируем временные файлы
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*.swo
+*~
+
+# Игнорируем системные файлы
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Игнорируем папки сборки
+build/
+Build/
+build-*/
+cmake-build-*/
+Debug/
+Release/
+x64/
+x86/
+out/
+bin/
+obj/
+
+# Игнорируем файлы IDE (VS Code, CLion, VS, Vim)
+.vscode/
+.idea/
+.vs/
+*.user
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.iml
+*.cbp
+*.kdev4
+*.project
+*.cproject
+*.classpath
+*.settings/
+
+# Игнорируем артефакты тестов
+coverage/
+*.gcda
+*.gcno
+*.gcov
